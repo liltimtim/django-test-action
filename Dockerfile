@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:slim-bullseye
 
 RUN set -eux; \
 	groupadd -r postgres --gid=999; \
